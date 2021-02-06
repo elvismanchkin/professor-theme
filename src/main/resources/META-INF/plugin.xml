@@ -1,0 +1,48 @@
+<idea-plugin>
+    <id>com.austin.professor.theme</id>
+    <name>Professor Theme</name>
+    <id>jp.austin.professor.theme</id>
+    <version>1.0</version>
+    <vendor email="austintraver@users.noreply.github.com"
+            url="http://github.com">
+        Austin Traver
+    </vendor>
+
+
+    <description><![CDATA[
+      Professor color theme for Jetbrains IDEs
+    ]]>
+    </description>
+
+    <change-notes><![CDATA[
+        Initiate project.
+    ]]>
+    </change-notes>
+
+    <!--
+    please see
+    https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html
+    for description
+    -->
+    <idea-version since-build="191"/>
+
+    <!--
+    please see
+    https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+    on how to target different products
+    -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider
+                id="b723ca40-aaaa-495c-9de5-dabb777dbe98"
+                path="/Professor.theme.json">
+        </themeProvider>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
