@@ -50,6 +50,8 @@ intellij {
 changelog {
     version = properties("pluginVersion")
     groups = emptyList()
+    unreleasedTerm = "\\[ Unreleased \\]"
+    itemPrefix = "*"
 }
 
 // Configure detekt plugin.
