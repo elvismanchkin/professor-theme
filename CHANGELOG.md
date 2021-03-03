@@ -1,7 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# void-theme Changelog
+# professor-theme Changelog
 
-## [Unreleased]
+## \[0.3.2\] - 2020-03-03
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Create initial scaffold using the [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
