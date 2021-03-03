@@ -23,7 +23,7 @@
     "border": "#242a36",
     "gray4": "#171c26",
     "gray5": "#13161c",
-    "gray6": "#080808",
+    "gray6": "#0e1014",
     "black": "#000000"
   },
   "ui": {
@@ -76,7 +76,7 @@
 
     "StatusBar": {
       "hoverBackground": "gray4",
-      "borderColor": "gray4"
+      "borderColor": "border"
     },
     "ActionButton": {
       "hoverBackground": "gray4",
@@ -283,9 +283,9 @@
       }
     },
     "SpeedSearch": {
-      "foreground": "black",
-      "borderColor": "black",
-      "background": "#1AEBFF"
+      "foreground": "white",
+      "borderColor": "white",
+      "background": "gray4"
     },
     "TabbedPane": {
       "underlineColor": "blue",
@@ -324,11 +324,14 @@
     "ToolTip": {
       "foreground": "white",
       "background": "black",
-      "Actions.background": "black",
-      "Actions.infoForeground": "white",
       "infoForeground": "white",
       "borderColor": "white",
-      "paintBorder": true
+      "paintBorder": true,
+      "shortcutForeground": "white",
+      "Actions": {
+        "background": "black",
+        "infoForeground": "white"
+      }
     },
     "ToolBar": {
       "borderHandleColor": "red"
@@ -364,9 +367,13 @@
     },
     "WelcomeScreen": {
       "Projects": {
-        "background": "gray4"
+        "background": "black",
+        "selectionBackground" : "gray5",
+        "selectionInactiveBackground": "gray5"
       },
-      "Projects.selectionInactiveBackground": "gray5",
+      "SidePanel": {
+        "background": "black"
+      },
       "separatorColor": "gray4"
     }
   },
