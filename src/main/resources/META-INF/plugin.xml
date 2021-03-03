@@ -1,19 +1,19 @@
 <idea-plugin>
-    <id>com.github.austintraver.voidtheme</id>
-    <name>void-theme</name>
-    <vendor>austintraver</vendor>
+    <id>com.austin.professor.theme</id>
+    <name>Professor Theme</name>
+    <vendor email="austintraver@users.noreply.github.com" url="https://github.com/austintraver">Austin Traver</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.austintraver.voidtheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.austintraver.voidtheme.services.MyProjectService"/>
+        <themeProvider
+                id="b723ca40-aaaa-495c-9de5-dabb777dbe98"
+                path="/Professor.theme.json">
+        </themeProvider>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.austintraver.voidtheme.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

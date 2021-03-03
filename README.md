@@ -1,4 +1,4 @@
-# void-theme
+# Professor Theme
 
 ![Build](https://github.com/austintraver/void-theme/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
