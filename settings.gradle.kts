@@ -1,1 +1,1 @@
-rootProject.name = "void-theme"
+rootProject.name = "professor-theme"
