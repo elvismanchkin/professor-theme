@@ -1,7 +1,7 @@
-package org.jetbrains.plugins.template.services
+package com.github.austintraver.voidtheme.services
 
+import com.github.austintraver.voidtheme.MyBundle
 import com.intellij.openapi.project.Project
-import org.jetbrains.plugins.template.MyBundle
 
 class MyProjectService(project: Project) {
 
