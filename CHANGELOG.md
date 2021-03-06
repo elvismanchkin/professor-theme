@@ -6,9 +6,9 @@
 
 ## \[ 0.3.4 \] 2020-03-03
 
-### Added
+### Changed
 
-* Introduce the official theme logo
+* Updated the official theme logo
 
 ## \[ 0.3.3 \] 2020-03-03
 
