@@ -31,7 +31,7 @@
       "background": "black",
       "foreground": "white",
       "infoForeground": "yellow",
-      "selectionBackground": "dough",
+      "selectionBackground": "#0045d6",
       "selectionForeground": "white",
       "selectionInactiveBackground": "gray3",
       "selectionBackgroundInactive": "gray3",
@@ -70,7 +70,7 @@
     },
     "Tree": {
       "paintLines": true,
-      "modifiedItemForeground": "#4ff0ff",
+      "modifiedItemForeground": "yellow",
       "hash": "border"
     },
 
@@ -117,8 +117,7 @@
       }
     },
     "CompletionPopup": {
-      "matchForeground": "#E6194B",
-      "selectionBackground": "dough"
+      "matchForeground": "pink"
     },
     "Component": {
       "errorFocusColor": "#E6194B",
@@ -162,12 +161,12 @@
       "inactiveColoredFileBackground": "black"
     },
     "FileColor": {
-      "Yellow": "#a47858",
-      "Green": "#2f7a47",
-      "Blue": "#404083",
-      "Violet": "#883088",
-      "Orange": "#ff8800",
-      "Rose": "#ef5f90"
+      "Yellow": "#332b1f",
+      "Green": "#408058",
+      "Blue": "#456280",
+      "Violet": "#585880",
+      "Orange": "#471e0b",
+      "Rose": "#803e4a"
     },
     "InplaceRefactoringPopup": {
       "borderColor": "whitesmoke"

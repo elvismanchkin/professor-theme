@@ -3,12 +3,30 @@
 # Changelog
 
 ## \[ Unreleased \]
+## [0.4.0]
+
+## \[ 0.4.0 \] 2020-03-21
+
+### Added
+
+Added support for new languages including:
+
+* Markdown
+* HTML
+* XML
+* YAML
+* JSON
+* Java
+
+### Changed
+
+Updated the selection color to dark blue
 
 ## \[ 0.3.4 \] 2020-03-03
 
 ### Changed
 
-* Updated the official theme logo
+* Update the official theme logo
 
 ## \[ 0.3.3 \] 2020-03-03
 
